@@ -1,0 +1,436 @@
+/* =====Common CSS===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a,
+button {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover,
+button:hover {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dflex {
+    display: flex;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.active {
+    color: #fbaf32;
+}
+
+.w-25 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.w-33 {
+    width: 33.33%;
+    padding: 0 15px;
+}
+
+.w-40 {
+    width: 40%;
+    padding: 0 15px;
+}
+
+.w-50 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.w-60 {
+    width: 60%;
+    padding: 0 15px;
+}
+.w-75 {
+    width:75%;
+    padding: 0 15px;
+}
+
+.cta a {
+    display: inline-block;
+    padding: 12px 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #fbaf32;
+    border: 2px solid #fbaf32;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+/* Header CSS */
+
+.navbar{
+    position: fixed;
+    top:0;
+    background-color: rgba(255,255,255);
+    width:100%;
+    z-index: 99;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar ul a {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    padding: 0 20px;
+    
+}
+
+header .row{
+    margin-top:80px;
+    align-items: center;
+}
+
+header .name h1{
+    text-transform: uppercase;
+}
+
+.navbar ul a:hover {
+    color: #fbaf32;
+}
+
+/* about CSS */
+
+.about-text h2{
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    text-align: justify;
+    line-height: 28px;
+    padding-right: 40px;
+}
+
+.about-img img{
+    height:100px;
+    width:100%;
+}
+
+
+/* Video-Description CSS */
+
+.video-description{
+    margin: 50px auto;
+}
+
+
+
+/* Features - Inquiry CSS */
+
+.features-inquiry{
+    margin: 50px auto;
+}
+
+.features-inquiry h2{
+    margin-bottom: 20px;
+}
+
+.features ul li{
+    background-color: #fbaf32;
+    padding: 10px;
+    margin:10px 0px;
+}
+
+.inquiry .form-group {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.inquiry .form-group input,
+.inquiry .form-group textarea {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 12px  15px;
+    width: 100%;
+}
+
+.inquiry .form-group textarea {
+    height: 150px;
+    resize: none !important;
+}
+
+.inquiry .contact-form textarea {
+    resize: none;
+}
+
+.inquiry .form-cta input {
+    padding: 14px 25px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #fbaf32;
+    border: 2px solid #fbaf32;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.inquiry ::placeholder {
+    color: rgba(0, 0, 0, .1);
+}
+
+
+
+/* Footer CSS */
+
+.site-footer {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, .04);
+    
+}
+
+.site-footer .row{
+    justify-content: space-between;
+}
+
+.site-footer li i {
+    color: #fbaf32;
+    padding-right: 5px;
+}
+
+.site-footer h3{
+    margin-bottom: 25px;
+}
+
+.footer-social a {
+    display: inline-flex;
+    background-color: #fbaf32;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.site-footer .school-song{
+    margin-top: 50px;
+}
+
+/* Campus Page CSS -  */
+
+.campus{
+    padding-bottom: 50px;
+}
+
+.campus .campus-img img{
+    width:100%;
+    object-fit: cover;
+    height: 700px;
+}
+
+/* Location Page CSS */
+
+.campus-location iframe{
+    width:100%;
+    padding:50px 0px;
+}
+
+/* Principal Page CSS */
+.principal{
+    padding: 50px 0px;
+}
+
+.principal .row {
+    align-items: center;
+}
+
+.principal .principal-msg p{
+    text-align: justify;
+    line-height: 40px;
+}
+
+
+/* Beyond Academics Page CSS */
+.activities{
+    padding: 50px 0px;
+}
+.activities h2{
+    padding: 20px 0px;
+}
+.activity-img img{
+    width:100%;
+}
+
+.activity-description p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* Affiliations Page CSS */
+
+.affiliations .affiliation-text p{
+    line-height: 40px;
+    text-align: justify;
+}
+
+/* Media Queries CSS */
+
+@media(max-width:1200px) and (min-width:1024px){
+
+}
+
+@media ( max-width:1023px) and (min-width:768px){
+    .navbar ul a {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}
+
+@media(max-width:767px){
+    .navbar ul a {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    
+}
+
+@media(max-width:562px){
+    .navbar ul{
+        flex-direction: column;
+        position: unset;
+        height:auto;
+    }
+
+    .navbar ul li{
+        width:100%;
+        text-align: center;
+    }
+
+    .navbar ul a{
+        display: block;
+        font-size:18px;
+        background-color: #fbaf32;
+        color: #000;
+        width:100%;
+        margin: 10px 0px;
+        padding: 15px 0px;
+
+    }
+
+    .active{
+        color:#fff;
+    }
+
+    .navbar ul a:hover{
+        color:#fff;
+    }
+
+    .navbar{
+        position: static;
+    }
+    header .row{
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .features-inquiry .row{
+        flex-direction: column;
+    }
+
+    .about-img img{
+        height:200px;
+        margin-bottom: 15px;
+    }
+
+    .w-40{
+        width:100%;
+    }
+    .w-60{
+        width:100%;
+    }
+    .w-25{
+        width:100%;
+    }
+    .w-75{
+        width:100%;
+    }
+    .w-33{
+        width:100%;
+    }
+    .w-50{
+        width:100%;
+    }
+    .site-footer .row{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .site-footer h3{
+        margin:15px 0;
+    }
+
+}
+
